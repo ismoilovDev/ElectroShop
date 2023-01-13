@@ -736,8 +736,13 @@ a:focus {
 
 .info_section .info_form form input {
   outline: none;
-  width: 100%;
+  width: 90%;
   padding: 7px 10px;
+}
+
+.info_section .info_form form textarea {
+  outline: none;
+  width: 90%;
 }
 
 .info_section .info_form form button {
