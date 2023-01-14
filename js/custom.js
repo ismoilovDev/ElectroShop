@@ -31,8 +31,10 @@ function sendMsg(e) {
         Subject : "This is the subject",
         Body : text
     }).then(
-      message => alert(message)
-    );
+      message => alert("Yuborildi!")
+    ).catch(() => {
+        alert("Nimadir xato kiritildi!")
+    })
 }
 
 msg_send_form.addEventListener('submit', sendMsg)
